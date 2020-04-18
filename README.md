@@ -83,8 +83,8 @@ You can define environment variables via `--env` argument found in the following
     ii  fdisk                      2.33.1-0.1                  amd64        collection of partitioning utilities
     ii  findutils                  4.6.0+git+20190209-2        amd64        utilities for finding files--find, xargs
     ii  gcc-8-base:amd64           8.3.0-6                     amd64        GCC, the GNU Compiler Collection (base package)
-    ii  git                        1:2.20.1-2+deb10u1          amd64        fast, scalable, distributed revision control system
-    ii  git-man                    1:2.20.1-2+deb10u1          all          fast, scalable, distributed revision control system (manual pages)
+    ii  git                        1:2.20.1-2+deb10u2          amd64        fast, scalable, distributed revision control system
+    ii  git-man                    1:2.20.1-2+deb10u2          all          fast, scalable, distributed revision control system (manual pages)
     ii  gpgv                       2.2.12-1+deb10u1            amd64        GNU privacy guard - signature verification tool
     ii  grep                       3.3-1                       amd64        GNU grep, egrep and fgrep
     ii  gzip                       1.9-3                       amd64        GNU compression utilities
@@ -124,7 +124,7 @@ You can define environment variables via `--env` argument found in the following
     ii  libgdbm-compat4:amd64      1.18.1-4                    amd64        GNU dbm database routines (legacy support runtime version) 
     ii  libgdbm6:amd64             1.18.1-4                    amd64        GNU dbm database routines (runtime version) 
     ii  libgmp10:amd64             2:6.1.2+dfsg-4              amd64        Multiprecision arithmetic library
-    ii  libgnutls30:amd64          3.6.7-4+deb10u2             amd64        GNU TLS library - main runtime library
+    ii  libgnutls30:amd64          3.6.7-4+deb10u3             amd64        GNU TLS library - main runtime library
     ii  libgpg-error0:amd64        1.35-1                      amd64        GnuPG development runtime library
     ii  libgssapi-krb5-2:amd64     1.17-3                      amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhogweed4:amd64          3.4.1-1                     amd64        low level cryptographic library (public-key cryptos)
