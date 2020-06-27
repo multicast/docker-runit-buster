@@ -30,27 +30,9 @@ would be in your own `Dockerfile` in the form:
     FROM =NAMESPACE=/=IMAGE=:latest
     ...
 
-## Build-time options
+## Build-time and Run-time options
 
-You can `export` environment variables found in the following list:
-
-  * `ftp_proxy`
-  * `http_proxy`
-  * `https_proxy`
-
-The values for these variables will not end up in the resulting image.
-
-## Run-time options
-
-You can define environment variables via `--env` argument found in the following list:
-
-  * `ftp_proxy`
-  * `http_proxy`
-  * `https_proxy`
-  * `BASE_DEBUG`
-      * zero to higher numbers - to get more and more verbose
-  * `BASE_NOEXIT`
-      * set to 1 not to exit on startup errors
+See [parent image](https://github.com/multicast/docker-buster)
 
 # Packages
 

@@ -30,27 +30,9 @@ would be in your own `Dockerfile` in the form:
     FROM mkovac/runit-buster:latest
     ...
 
-## Build-time options
+## Build-time and Run-time options
 
-You can `export` environment variables found in the following list:
-
-  * `ftp_proxy`
-  * `http_proxy`
-  * `https_proxy`
-
-The values for these variables will not end up in the resulting image.
-
-## Run-time options
-
-You can define environment variables via `--env` argument found in the following list:
-
-  * `ftp_proxy`
-  * `http_proxy`
-  * `https_proxy`
-  * `BASE_DEBUG`
-      * zero to higher numbers - to get more and more verbose
-  * `BASE_NOEXIT`
-      * set to 1 not to exit on startup errors
+See [parent image](https://github.com/multicast/docker-buster)
 
 # Packages
 
@@ -66,7 +48,7 @@ You can define environment variables via `--env` argument found in the following
     ii  base-passwd                3.5.46                      amd64        Debian base system master password and group files
     ii  bash                       5.0-4                       amd64        GNU Bourne Again SHell
     ii  bsdutils                   1:2.33.1-0.1                amd64        basic utilities from 4.4BSD-Lite
-    ii  ca-certificates            20190110                    all          Common CA certificates
+    ii  ca-certificates            20200601~deb10u1            all          Common CA certificates
     ii  coreutils                  8.30-3                      amd64        GNU core utilities
     ii  cron                       3.0pl1-134+deb10u1          amd64        process scheduling daemon
     ii  curl                       7.64.0-4+deb10u1            amd64        command line tool for transferring data with URL syntax
@@ -124,7 +106,7 @@ You can define environment variables via `--env` argument found in the following
     ii  libgdbm-compat4:amd64      1.18.1-4                    amd64        GNU dbm database routines (legacy support runtime version) 
     ii  libgdbm6:amd64             1.18.1-4                    amd64        GNU dbm database routines (runtime version) 
     ii  libgmp10:amd64             2:6.1.2+dfsg-4              amd64        Multiprecision arithmetic library
-    ii  libgnutls30:amd64          3.6.7-4+deb10u3             amd64        GNU TLS library - main runtime library
+    ii  libgnutls30:amd64          3.6.7-4+deb10u4             amd64        GNU TLS library - main runtime library
     ii  libgpg-error0:amd64        1.35-1                      amd64        GnuPG development runtime library
     ii  libgssapi-krb5-2:amd64     1.17-3                      amd64        MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
     ii  libhogweed4:amd64          3.4.1-1                     amd64        low level cryptographic library (public-key cryptos)
