@@ -58,7 +58,7 @@ See [parent image](https://github.com/multicast/docker-buster)
     ii  debianutils                4.8.6.1                     amd64        Miscellaneous utilities specific to Debian
     ii  di                         4.47-1                      amd64        advanced df like disk information utility
     ii  diffutils                  1:3.7-3                     amd64        File comparison utilities
-    ii  dpkg                       1.19.7                      amd64        Debian package management system
+    ii  dpkg                       1.19.8                      amd64        Debian package management system
     ii  dumb-init                  1.2.2-1.1                   amd64        wrapper script which proxies signals to a child
     ii  e2fsprogs                  1.44.5-1+deb10u3            amd64        ext2/ext3/ext4 file system utilities
     ii  etckeeper                  1.18.10-1                   all          store /etc in git, mercurial, bzr or darcs
